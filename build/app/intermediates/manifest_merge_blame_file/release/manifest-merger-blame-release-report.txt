@@ -1,0 +1,74 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.github.usamasarwar.ninanews"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\Usama\Desktop\GitHub\nina-news\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\Usama\Desktop\GitHub\nina-news\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Usama\Desktop\GitHub\nina-news\android\app\src\main\AndroidManifest.xml:3:5-66
+11-->C:\Users\Usama\Desktop\GitHub\nina-news\android\app\src\main\AndroidManifest.xml:3:22-64
+12
+13    <application
+13-->C:\Users\Usama\Desktop\GitHub\nina-news\android\app\src\main\AndroidManifest.xml:4:5-31:19
+14        android:name="io.flutter.app.FlutterApplication"
+14-->C:\Users\Usama\Desktop\GitHub\nina-news\android\app\src\main\AndroidManifest.xml:5:9-57
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] C:\Users\Usama\.gradle\caches\transforms-2\files-2.1\a528b13ac93e64cafa3d0480e2c93207\core-1.1.0\AndroidManifest.xml:24:18-86
+16        android:icon="@mipmap/ic_launcher"
+16-->C:\Users\Usama\Desktop\GitHub\nina-news\android\app\src\main\AndroidManifest.xml:7:9-43
+17        android:label="NINA NEWS" >
+17-->C:\Users\Usama\Desktop\GitHub\nina-news\android\app\src\main\AndroidManifest.xml:6:9-34
+18        <activity
+18-->C:\Users\Usama\Desktop\GitHub\nina-news\android\app\src\main\AndroidManifest.xml:8:9-27:20
+19            android:name="io.github.usamasarwar.ninanews.MainActivity"
+19-->C:\Users\Usama\Desktop\GitHub\nina-news\android\app\src\main\AndroidManifest.xml:9:13-41
+20            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+20-->C:\Users\Usama\Desktop\GitHub\nina-news\android\app\src\main\AndroidManifest.xml:12:13-163
+21            android:hardwareAccelerated="true"
+21-->C:\Users\Usama\Desktop\GitHub\nina-news\android\app\src\main\AndroidManifest.xml:13:13-47
+22            android:launchMode="singleTop"
+22-->C:\Users\Usama\Desktop\GitHub\nina-news\android\app\src\main\AndroidManifest.xml:10:13-43
+23            android:theme="@style/LaunchTheme"
+23-->C:\Users\Usama\Desktop\GitHub\nina-news\android\app\src\main\AndroidManifest.xml:11:13-47
+24            android:windowSoftInputMode="adjustResize" >
+24-->C:\Users\Usama\Desktop\GitHub\nina-news\android\app\src\main\AndroidManifest.xml:14:13-55
+25            <meta-data
+25-->C:\Users\Usama\Desktop\GitHub\nina-news\android\app\src\main\AndroidManifest.xml:15:13-18:17
+26                android:name="io.flutter.embedding.android.NormalTheme"
+26-->C:\Users\Usama\Desktop\GitHub\nina-news\android\app\src\main\AndroidManifest.xml:16:15-70
+27                android:resource="@style/NormalTheme" />
+27-->C:\Users\Usama\Desktop\GitHub\nina-news\android\app\src\main\AndroidManifest.xml:17:15-52
+28            <meta-data
+28-->C:\Users\Usama\Desktop\GitHub\nina-news\android\app\src\main\AndroidManifest.xml:19:13-22:17
+29                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+29-->C:\Users\Usama\Desktop\GitHub\nina-news\android\app\src\main\AndroidManifest.xml:20:15-79
+30                android:resource="@drawable/launch_background" />
+30-->C:\Users\Usama\Desktop\GitHub\nina-news\android\app\src\main\AndroidManifest.xml:21:15-61
+31
+32            <intent-filter>
+32-->C:\Users\Usama\Desktop\GitHub\nina-news\android\app\src\main\AndroidManifest.xml:23:13-26:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Users\Usama\Desktop\GitHub\nina-news\android\app\src\main\AndroidManifest.xml:24:17-68
+33-->C:\Users\Usama\Desktop\GitHub\nina-news\android\app\src\main\AndroidManifest.xml:24:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\Usama\Desktop\GitHub\nina-news\android\app\src\main\AndroidManifest.xml:25:17-76
+35-->C:\Users\Usama\Desktop\GitHub\nina-news\android\app\src\main\AndroidManifest.xml:25:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <meta-data
+39-->C:\Users\Usama\Desktop\GitHub\nina-news\android\app\src\main\AndroidManifest.xml:28:9-30:33
+40            android:name="flutterEmbedding"
+40-->C:\Users\Usama\Desktop\GitHub\nina-news\android\app\src\main\AndroidManifest.xml:29:13-44
+41            android:value="2" />
+41-->C:\Users\Usama\Desktop\GitHub\nina-news\android\app\src\main\AndroidManifest.xml:30:13-30
+42    </application>
+43
+44</manifest>
