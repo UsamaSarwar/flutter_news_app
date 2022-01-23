@@ -11,6 +11,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   // URL of the API
+  // Map<String,List<Map<String,dynamic>>>
   final String url =
       "https://ninanews.com/NinaNewsService/api/values/GetLastXBreakingNews?rowsToReturn=10";
   List news;
@@ -25,8 +26,10 @@ class _HomePageState extends State<HomePage> {
   // Function to get NEWS from API
   Future<String> getNEWS() async {
     // Getting API Response and filtering JSON only
-    var response = await http
-        .get(Uri.encodeFull(url), headers: {"Accept": "application/json"});
+    var response = await http.get(
+      Uri.encodeFull(url),
+      headers: {"Accept": "application/json"},
+    );
 
     // print(response.body); //// Just to make sure the connection
 
